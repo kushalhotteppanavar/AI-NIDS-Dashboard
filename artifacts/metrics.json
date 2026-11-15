@@ -1,0 +1,70 @@
+{
+  "accuracy": 0.9995,
+  "precision_weighted": 0.999500748876685,
+  "recall_weighted": 0.9995,
+  "f1_weighted": 0.9995000831459167,
+  "classes": [
+    "BENIGN",
+    "DDoS",
+    "PortScan"
+  ],
+  "confusion_matrix": [
+    [
+      2000,
+      0,
+      0
+    ],
+    [
+      2,
+      1998,
+      0
+    ],
+    [
+      1,
+      0,
+      1999
+    ]
+  ],
+  "classification_report": {
+    "BENIGN": {
+      "precision": 0.9985022466300549,
+      "recall": 1.0,
+      "f1-score": 0.9992505620784412,
+      "support": 2000.0
+    },
+    "DDoS": {
+      "precision": 1.0,
+      "recall": 0.999,
+      "f1-score": 0.9994997498749375,
+      "support": 2000.0
+    },
+    "PortScan": {
+      "precision": 1.0,
+      "recall": 0.9995,
+      "f1-score": 0.9997499374843711,
+      "support": 2000.0
+    },
+    "accuracy": 0.9995,
+    "macro avg": {
+      "precision": 0.9995007488766849,
+      "recall": 0.9994999999999999,
+      "f1-score": 0.9995000831459167,
+      "support": 6000.0
+    },
+    "weighted avg": {
+      "precision": 0.999500748876685,
+      "recall": 0.9995,
+      "f1-score": 0.9995000831459167,
+      "support": 6000.0
+    }
+  },
+  "rows_used": 30000,
+  "train_rows": 24000,
+  "test_rows": 6000,
+  "feature_count": 51,
+  "class_counts": {
+    "BENIGN": 10000,
+    "DDoS": 10000,
+    "PortScan": 10000
+  }
+}
